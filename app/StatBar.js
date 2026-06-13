@@ -7,7 +7,7 @@ import Animated, {
   withSequence,
   withTiming,
 } from 'react-native-reanimated';
-import { COLORS, FONTS, SPACING, RADIUS } from '../utils/theme';
+import { COLORS, FONTS, SPACING, RADIUS } from './theme';
 
 /**
  * StatBar — Barra de progresso animada para os atributos do personagem

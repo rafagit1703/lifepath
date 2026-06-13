@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { INITIAL_STATS, getNextScenario, ACHIEVEMENTS } from '../data/scenarios';
+import { INITIAL_STATS, getNextScenario, ACHIEVEMENTS } from './scenarios';
 
 const SAVE_KEY = '@lifepath_save';
 const ACHIEVEMENTS_KEY = '@lifepath_achievements';

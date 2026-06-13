@@ -35,12 +35,12 @@ import Animated, {
 } from 'react-native-reanimated';
 import * as Haptics from 'expo-haptics';
 
-import { useGameState } from '../src/hooks/useGameState';
-import StatBar from '../src/components/StatBar';
-import ChoiceButton from '../src/components/ChoiceButton';
-import AgeTimeline from '../src/components/AgeTimeline';
-import { COLORS, FONTS, SPACING, RADIUS, SHADOW } from '../src/utils/theme';
-import { PHASE_MAP } from '../src/data/scenarios';
+import { useGameState } from './useGameState';
+import StatBar from './StatBar';
+import ChoiceButton from './ChoiceButton';
+import AgeTimeline from './AgeTimeline';
+import { COLORS, FONTS, SPACING, RADIUS, SHADOW } from './theme';
+import { PHASE_MAP } from './scenarios';
 
 // ─────────────────────────────────────────────────────────────────────────────
 

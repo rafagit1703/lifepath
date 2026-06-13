@@ -6,7 +6,7 @@ import Animated, {
   withSpring,
   withTiming,
 } from 'react-native-reanimated';
-import { COLORS, FONTS, SPACING, RADIUS, SHADOW } from '../utils/theme';
+import { COLORS, FONTS, SPACING, RADIUS, SHADOW } from './theme';
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 

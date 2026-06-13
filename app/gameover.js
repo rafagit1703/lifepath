@@ -19,8 +19,8 @@ import Animated, {
   ZoomIn,
 } from 'react-native-reanimated';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { COLORS, FONTS, SPACING, RADIUS, SHADOW } from '../src/utils/theme';
-import { ACHIEVEMENTS } from '../src/data/scenarios';
+import { COLORS, FONTS, SPACING, RADIUS, SHADOW } from './theme';
+import { ACHIEVEMENTS } from './scenarios';
 
 const ACHIEVEMENTS_KEY = '@lifepath_achievements';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { COLORS, FONTS, SPACING, RADIUS } from '../utils/theme';
-import { getPhase, PHASE_MAP } from '../data/scenarios';
+import { COLORS, FONTS, SPACING, RADIUS } from './theme';
+import { getPhase, PHASE_MAP } from './scenarios';
 
 export default function AgeTimeline({ age }) {
   const phase = getPhase(age);
